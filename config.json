@@ -1,0 +1,32 @@
+{
+    "email": {
+        "port": 465, 
+        "from": "test@notexistantdomain.com",
+        "login": "test@notexistantdomain.com",
+        "password": "Please-Change-This",
+        "host": "mailhost.notexistantdomain.com" },
+  "events": [
+    {
+      "date": "19.12.1980",
+      "intervall": "yearly",
+      "action": "birthdayMail",
+      "from": "test@notexistantdomain.com",
+      "to": "test@notexistantdomain.com",
+      "subject": "Happy Birthday",
+      "content": "./hb/HappyBirthday.html",
+      "anrede": "Dear Test",
+      "gruss": "yours Johannes"
+    },
+    {
+      "date": "12.12.2021",
+      "intervall": "yearly",
+      "action": "simpleMail",
+      "from": "test@notexistantdomain.com",
+      "to": "test@notexistantdomain.com",
+      "subject": "simple-mail-test",
+      "content": "mail.txt"
+    }
+
+  ]
+
+}
